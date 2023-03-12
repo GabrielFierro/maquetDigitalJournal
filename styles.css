@@ -3,3 +3,19 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+:root {
+    --black_color: #000;
+}
+
+.header {
+    background: var(--black_color);
+}
+
+.section {
+    background: var(--black_color);
+}
+
+.footer {
+    background: var(--black_color);
+}
