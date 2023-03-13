@@ -8,14 +8,128 @@
     --black_color: #000;
 }
 
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    /* 
+    flex-flow is like:
+    flex-direction: column;
+    flex-wrap: nowrap;
+    */
+}
+
 .header {
     background: var(--black_color);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background: #62CDFF;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+}
+
+/* 
+    flex with three properties it's like:
+    flex: flex-grow | flex-shrink | flex-basis
+    flex-grow: This property specifies how much of the remaining space in the flex container should be assigned to the item.
+    flex-shrink: fit the item
+    flex-basis: set the initial main size of a flex item.
+*/
+
+.logo {
+    background: #C9EEFF;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.nav {
+    background: #C9EEFF;
+    flex: 5 1 auto;
+    height: 30px;
+}
+
+.social {
+    background: #C9EEFF;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.main_text {
+    background: #AA77FF;
+}
+
+h1{
+    background: #C9EEFF;
 }
 
 .section {
     background: var(--black_color);
+    display: flex;
+}
+
+.articles {
+    background: #655DBB;
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article {
+    background: #BFACE2;
+    flex: 1 1 40%;
+}
+
+.navigation {
+    background: #EA8FEA;
+    flex: 1 1 100%;
+}
+
+.aside {
+    background: #3A1078;
+    flex: 1 1 auto;
+}
+
+.advertising {
+    background: #FFA3FD;
 }
 
 .footer {
     background: var(--black_color);
+    display: flex;
+    justify-content: center;
+}
+
+.children {
+    background: #EA8FEA;
+    width: 300px;
+}
+
+@media (max-width: 800px){
+    .section {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+        height: auto;
+    }
+    .aside {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px){
+    .articles {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px){
+    .aside {
+        flex-direction: column;
+    }
 }
