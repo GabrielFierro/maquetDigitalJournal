@@ -5,6 +5,8 @@ Set the colors for each section such that show the structure.
 
 ![maquet](/images/maqueta.PNG)
 
+---
+
 SPA
 
 Paso 1:
