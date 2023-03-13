@@ -1,17 +1,17 @@
 * {
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 :root {
-    --black_color: #000;
+  --black_color: #000;
 }
 
 .container {
-    display: flex;
-    flex-flow: column nowrap;
-    /* 
+  display: flex;
+  flex-flow: column nowrap;
+  /* 
     flex-flow is like:
     flex-direction: column;
     flex-wrap: nowrap;
@@ -19,17 +19,17 @@
 }
 
 .header {
-    background: var(--black_color);
-    display: flex;
-    flex-flow: column nowrap;
+  background: var(--black_color);
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .menu {
-    background: #62CDFF;
-    display: flex;
-    flex-flow: row nowrap;
-    height: 100px;
-    align-items: center;
+  background: #62cdff;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100px;
+  align-items: center;
 }
 
 /* 
@@ -41,95 +41,95 @@
 */
 
 .logo {
-    background: #C9EEFF;
-    flex: 1 1 auto;
-    height: 30px;
+  background: #c9eeff;
+  flex: 1 1 auto;
+  height: 30px;
 }
 
 .nav {
-    background: #C9EEFF;
-    flex: 5 1 auto;
-    height: 30px;
+  background: #c9eeff;
+  flex: 5 1 auto;
+  height: 30px;
 }
 
 .social {
-    background: #C9EEFF;
-    flex: 1 1 auto;
-    height: 30px;
+  background: #c9eeff;
+  flex: 1 1 auto;
+  height: 30px;
 }
 
 .main_text {
-    background: #AA77FF;
+  background: #aa77ff;
 }
 
-h1{
-    background: #C9EEFF;
+h1 {
+  background: #c9eeff;
 }
 
 .section {
-    background: var(--black_color);
-    display: flex;
+  background: var(--black_color);
+  display: flex;
 }
 
 .articles {
-    background: #655DBB;
-    flex: 2 1 auto;
-    display: flex;
-    flex-flow: row wrap;
+  background: #655dbb;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .article {
-    background: #BFACE2;
-    flex: 1 1 40%;
+  background: #bface2;
+  flex: 1 1 40%;
 }
 
 .navigation {
-    background: #EA8FEA;
-    flex: 1 1 100%;
+  background: #ea8fea;
+  flex: 1 1 100%;
 }
 
 .aside {
-    background: #3A1078;
-    flex: 1 1 auto;
+  background: #3a1078;
+  flex: 1 1 auto;
 }
 
 .advertising {
-    background: #FFA3FD;
+  background: #ffa3fd;
 }
 
 .footer {
-    background: var(--black_color);
-    display: flex;
-    justify-content: center;
+  background: var(--black_color);
+  display: flex;
+  justify-content: center;
 }
 
 .children {
-    background: #EA8FEA;
-    width: 300px;
+  background: #ea8fea;
+  width: 300px;
 }
 
-@media (max-width: 800px){
-    .section {
-        flex-direction: column;
-    }
-    .menu {
-        flex-direction: column;
-        height: auto;
-    }
-    .aside {
-        display: flex;
-        justify-content: center;
-    }
+@media (max-width: 800px) {
+  .section {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+    height: auto;
+  }
+  .aside {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 600px){
-    .articles {
-        flex-direction: column;
-    }
+@media (max-width: 600px) {
+  .articles {
+    flex-direction: column;
+  }
 }
 
-@media (max-width: 400px){
-    .aside {
-        flex-direction: column;
-    }
+@media (max-width: 400px) {
+  .aside {
+    flex-direction: column;
+  }
 }
