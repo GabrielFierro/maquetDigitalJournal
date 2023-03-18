@@ -72,6 +72,10 @@ a {
   letter-spacing: 2px; /* adding space between the letters */
 }
 
+.nav a:hover {
+  color: #160064;
+}
+
 .social {
   flex: 1 1 auto;
 }
