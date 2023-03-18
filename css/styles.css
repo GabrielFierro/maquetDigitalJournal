@@ -52,7 +52,11 @@ a {
 }
 
 .logo a {
-  color: #d81cb9;
+  color: #d43cbb;
+}
+
+.logo a:hover {
+  color: #6e005c;
 }
 
 .nav {
