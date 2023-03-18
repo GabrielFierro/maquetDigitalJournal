@@ -53,6 +53,7 @@ a {
 
 .logo a {
   color: #d43cbb;
+  font-size: 30px;
 }
 
 .logo a:hover {
