@@ -47,6 +47,10 @@
   flex: 1 1 auto;
 }
 
+.logo a {
+  color: #d81cb9;
+}
+
 .nav {
   flex: 5 1 auto;
 }
