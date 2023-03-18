@@ -80,6 +80,12 @@ a {
   flex: 1 1 auto;
 }
 
+.social a {
+  font-size: 18px;
+  color: #2e06c0;
+  padding: 0 5px;
+}
+
 .main_text {
   background: #aa77ff;
 }
