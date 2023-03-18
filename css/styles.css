@@ -46,19 +46,16 @@
 .logo {
   background: #c9eeff;
   flex: 1 1 auto;
-  height: 30px;
 }
 
 .nav {
   background: #c9eeff;
   flex: 5 1 auto;
-  height: 30px;
 }
 
 .social {
   background: #c9eeff;
   flex: 1 1 auto;
-  height: 30px;
 }
 
 .main_text {
