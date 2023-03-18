@@ -19,7 +19,10 @@
 }
 
 .header {
-  background: var(--black_color);
+  background: url(../images/london-bridge.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
   display: flex;
   flex-flow: column nowrap;
 }
