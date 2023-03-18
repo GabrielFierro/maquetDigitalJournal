@@ -87,6 +87,10 @@ a {
   padding: 0 5px;
 }
 
+.social a:hover {
+  color: #160064;
+}
+
 .main_text {
   background: #aa77ff;
 }
