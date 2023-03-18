@@ -52,16 +52,24 @@ a {
 }
 
 .logo a {
-  color: #d43cbb;
+  color: #2e06c0;
   font-size: 30px;
 }
 
 .logo a:hover {
-  color: #6e005c;
+  color: #160064;
 }
 
 .nav {
   flex: 5 1 auto;
+}
+
+.nav a {
+  color: #2e06c0;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px; /* adding space between the letters */
 }
 
 .social {
