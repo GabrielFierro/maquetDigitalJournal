@@ -1,5 +1,5 @@
 * {
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -52,12 +52,12 @@ a {
 }
 
 .logo a {
-  color: #2e06c0;
+  color: #fff;
   font-size: 30px;
 }
 
 .logo a:hover {
-  color: #160064;
+  color: #343434;
 }
 
 .nav {
@@ -65,7 +65,7 @@ a {
 }
 
 .nav a {
-  color: #2e06c0;
+  color: #fff;
   font-size: 11px;
   text-transform: uppercase;
   padding: 0 10px;
@@ -73,7 +73,7 @@ a {
 }
 
 .nav a:hover {
-  color: #160064;
+  color: #343434;
 }
 
 .social {
@@ -83,12 +83,12 @@ a {
 
 .social a {
   font-size: 18px;
-  color: #2e06c0;
+  color: #fff;
   padding: 0 5px;
 }
 
 .social a:hover {
-  color: #160064;
+  color: #343434;
 }
 
 .main_text {
