@@ -8,6 +8,10 @@
   --black_color: #000;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   flex-flow: column nowrap;
