@@ -28,7 +28,7 @@
 }
 
 .menu {
-  background: #62cdff;
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-flow: row nowrap;
   height: 100px;
