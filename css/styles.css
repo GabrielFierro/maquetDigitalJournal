@@ -44,17 +44,14 @@
 */
 
 .logo {
-  background: #c9eeff;
   flex: 1 1 auto;
 }
 
 .nav {
-  background: #c9eeff;
   flex: 5 1 auto;
 }
 
 .social {
-  background: #c9eeff;
   flex: 1 1 auto;
 }
 
