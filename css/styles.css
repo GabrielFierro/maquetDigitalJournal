@@ -93,11 +93,19 @@ a {
 }
 
 .main_text {
-  background: #aa77ff;
+  /* background: #aa77ff; */
+  height: 580px;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
-  background: #c9eeff;
+  font-family: "Lora", serif;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .section {
