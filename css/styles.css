@@ -212,7 +212,7 @@ h4 {
   letter-spacing: 2px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1120px) {
   .section {
     flex-direction: column;
   }
@@ -224,9 +224,15 @@ h4 {
     display: flex;
     justify-content: center;
   }
+  h1 {
+    font-size: 15px;
+  }
+  .main_text {
+    height: 450px;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 762px) {
   .articles {
     flex-direction: column;
   }
