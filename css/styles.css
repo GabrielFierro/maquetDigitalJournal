@@ -238,6 +238,9 @@ h4 {
   }
 }
 
+@media (max-width: 650px) {
+}
+
 @media (max-width: 400px) {
   .aside {
     flex-direction: column;
