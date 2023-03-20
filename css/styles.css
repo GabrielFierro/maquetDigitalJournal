@@ -97,7 +97,6 @@ a {
 }
 
 .main_text {
-  /* background: #aa77ff; */
   height: 580px;
   display: flex;
   align-items: center;
@@ -179,7 +178,6 @@ h2 {
 }
 
 .aside {
-  /* background: #f73f52; */
   flex: 1 1 auto;
   margin: 10px 5px 10px 0;
 }
@@ -196,7 +194,6 @@ h4 {
 }
 
 .advertising {
-  /* background: #ececec; */
 }
 
 .footer {
@@ -207,7 +204,6 @@ h4 {
 }
 
 .children {
-  /* background: #ececec; */
   text-align: center;
 }
 
