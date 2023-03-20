@@ -137,6 +137,19 @@ h1 {
   width: 100%;
 }
 
+.article a {
+  color: #fff;
+  font-size: 13px;
+  padding: 10px;
+  background: #000;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+.article a:hover {
+  background: #546cc3;
+}
+
 h3 {
   color: #fff;
   font-size: 13px;
