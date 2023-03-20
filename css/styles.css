@@ -165,8 +165,9 @@ h2 {
 }
 
 .navigation {
-  background: #70a3c4;
+  background: #000;
   flex: 1 1 100%;
+  margin: 10px 10px 0 0px;
 }
 
 .navigation a {
@@ -202,11 +203,20 @@ h4 {
   background: var(--black_color);
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .children {
-  background: #ececec;
-  width: 300px;
+  /* background: #ececec; */
+  text-align: center;
+}
+
+.children a {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 800px) {
